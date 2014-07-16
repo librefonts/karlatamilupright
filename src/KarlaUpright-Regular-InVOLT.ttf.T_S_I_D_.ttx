@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <TSID>
+    <source>
+
+ DEFINE glyph0_0 = 0              
+ DEFINE d_null_1 = 1              
+ DEFINE CR_2 = 2                  
+ DEFINE space_3 = 3               
+ DEFINE one_4 = 4                 
+ DEFINE two_5 = 5                 
+ DEFINE three_6 = 6               
+ DEFINE four_7 = 7                
+ DEFINE five_8 = 8                
+ DEFINE six_9 = 9                 
+ DEFINE seven_A = 10              
+ DEFINE eight_B = 11              
+ DEFINE nine_C = 12               
+ DEFINE zero_D = 13               
+ DEFINE comma_E = 14              
+ DEFINE period_F = 15             
+ DEFINE semicolon_10 = 16         
+ DEFINE colon_11 = 17             
+ DEFINE quoteleft_12 = 18         
+ DEFINE quoteright_13 = 19        
+ DEFINE quotesingle_14 = 20       
+ DEFINE hyphen_15 = 21            
+ DEFINE endash_16 = 22            
+ DEFINE emdash_17 = 23            
+ DEFINE exclam_18 = 24            
+ DEFINE question_19 = 25          
+ DEFINE slash_1A = 26             
+ DEFINE backslash_1B = 27         
+ DEFINE plus_1C = 28              
+ DEFINE minus_1D = 29             
+ DEFINE equals_1E = 30            
+ DEFINE parenleft_1F = 31         
+ DEFINE parenright_20 = 32        
+ DEFINE bracketleft_21 = 33       
+ DEFINE bracketright_22 = 34      
+ DEFINE underscore_23 = 35        
+ DEFINE at_24 = 36                
+ DEFINE quotedbl_25 = 37          
+ DEFINE numbersign_26 = 38        
+ DEFINE dollar_27 = 39            
+ DEFINE percent_28 = 40           
+ DEFINE ampersand_29 = 41         
+ DEFINE asterisk_2A = 42          
+ DEFINE less_2B = 43              
+ DEFINE greater_2C = 44           
+ DEFINE asciicircum_2D = 45       
+ DEFINE braceleft_2E = 46         
+ DEFINE bar_2F = 47               
+ DEFINE braceright_30 = 48        
+ DEFINE asciitilde_31 = 49        
+ DEFINE sterling_32 = 50          
+ DEFINE apostrophe_33 = 51        
+ DEFINE rupee_34 = 52             
+ DEFINE zerotamil_35 = 53         
+ DEFINE onetamil_36 = 54          
+ DEFINE twotamil_37 = 55          
+ DEFINE threetamil_38 = 56        
+ DEFINE fourtamil_39 = 57         
+ DEFINE fivetamil_3A = 58         
+ DEFINE sixtamil_3B = 59          
+ DEFINE seventamil_3C = 60        
+ DEFINE eighttamil_3D = 61        
+ DEFINE ninetamil_3E = 62         
+ DEFINE tentamil_3F = 63          
+ DEFINE hundredtamil_40 = 64      
+ DEFINE thousandtami_41 = 65      
+ DEFINE virama_tam_42 = 66        
+ DEFINE anusvara_tam_43 = 67      
+ DEFINE visarga_tam_44 = 68       
+ DEFINE a_tam_45 = 69             
+ DEFINE aa_tam_46 = 70            
+ DEFINE i_tam_47 = 71             
+ DEFINE ii_tam_48 = 72            
+ DEFINE u_tam_49 = 73             
+ DEFINE uu_tam_4A = 74            
+ DEFINE e_tam_4B = 75             
+ DEFINE ee_tam_4C = 76            
+ DEFINE ai_tam_4D = 77            
+ DEFINE o_tam_4E = 78             
+ DEFINE oo_tam_4F = 79            
+ DEFINE au_tam_50 = 80            
+ DEFINE kvir_tam_51 = 81          
+ DEFINE ngvir_tam_52 = 82         
+ DEFINE cvir_tam_53 = 83          
+ DEFINE jvir_tam_54 = 84          
+ DEFINE nyvir_tam_55 = 85         
+ DEFINE ttvir_tam_56 = 86         
+ DEFINE nnvir_tam_57 = 87         
+ DEFINE tvir_tam_58 = 88          
+ DEFINE nvir_tam_59 = 89          
+ DEFINE nnnvir_tam_5A = 90        
+ DEFINE pvir_tam_5B = 91          
+ DEFINE mvir_tam_5C = 92          
+ DEFINE yvir_tam_5D = 93          
+ DEFINE rvir_tam_5E = 94          
+ DEFINE rrvir_tam_5F = 95         
+ DEFINE lvir_tam_60 = 96          
+ DEFINE llvir_tam_61 = 97         
+ DEFINE lllvir_tam_62 = 98        
+ DEFINE vvir_tam_63 = 99          
+ DEFINE shvir_tam_64 = 100        
+ DEFINE ssvir_tam_65 = 101        
+ DEFINE svir_tam_66 = 102         
+ DEFINE hvir_tam_67 = 103         
+ DEFINE kssvir_tam_68 = 104       
+ DEFINE kansv_tam_69 = 105        
+ DEFINE ngansv_tam_6A = 106       
+ DEFINE cansv_tam_6B = 107        
+ DEFINE jansv_tam_6C = 108        
+ DEFINE nyansv_tam_6D = 109       
+ DEFINE ttansv_tam_6E = 110       
+ DEFINE nnansv_tam_6F = 111       
+ DEFINE tansv_tam_70 = 112        
+ DEFINE nansv_tam_71 = 113        
+ DEFINE nnnansv_tam_72 = 114      
+ DEFINE pansv_tam_73 = 115        
+ DEFINE mansv_tam_74 = 116        
+ DEFINE yansv_tam_75 = 117        
+ DEFINE ransv_tam_76 = 118        
+ DEFINE rransv_tam_77 = 119       
+ DEFINE lansv_tam_78 = 120        
+ DEFINE llansv_tam_79 = 121       
+ DEFINE lllansv_tam_7A = 122      
+ DEFINE vansv_tam_7B = 123        
+ DEFINE shansv_tam_7C = 124       
+ DEFINE ssansv_tam_7D = 125       
+ DEFINE sansv_tam_7E = 126        
+ DEFINE hansv_tam_7F = 127        
+ DEFINE kssansv_tam_80 = 128      
+ DEFINE ka_tam_81 = 129           
+ DEFINE nga_tam_82 = 130          
+ DEFINE ca_tam_83 = 131           
+ DEFINE ja_tam_84 = 132           
+ DEFINE nya_tam_85 = 133          
+ DEFINE tta_tam_86 = 134          
+ DEFINE nna_tam_87 = 135          
+ DEFINE ta_tam_88 = 136           
+ DEFINE na_tam_89 = 137           
+ DEFINE nnna_tam_8A = 138         
+ DEFINE pa_tam_8B = 139           
+ DEFINE ma_tam_8C = 140           
+ DEFINE ya_tam_8D = 141           
+ DEFINE ra_tam_8E = 142           
+ DEFINE rra_tam_8F = 143          
+ DEFINE la_tam_90 = 144           
+ DEFINE lla_tam_91 = 145          
+ DEFINE llla_tam_92 = 146         
+ DEFINE va_tam_93 = 147           
+ DEFINE sha_tam_94 = 148          
+ DEFINE ssa_tam_95 = 149          
+ DEFINE sa_tam_96 = 150           
+ DEFINE ha_tam_97 = 151           
+ DEFINE kssa_tam_98 = 152         
+ DEFINE nnaa_tam_99 = 153         
+ DEFINE nnnaa_tam_9A = 154        
+ DEFINE rraa_tam_9B = 155         
+ DEFINE ki_tam_9C = 156           
+ DEFINE ngi_tam_9D = 157          
+ DEFINE ci_tam_9E = 158           
+ DEFINE ji_tam_9F = 159           
+ DEFINE nyi_tam_A0 = 160          
+ DEFINE tti_tam_A1 = 161          
+ DEFINE nni_tam_A2 = 162          
+ DEFINE ti_tam_A3 = 163           
+ DEFINE ni_tam_A4 = 164           
+ DEFINE nnni_tam_A5 = 165         
+ DEFINE pi_tam_A6 = 166           
+ DEFINE mi_tam_A7 = 167           
+ DEFINE yi_tam_A8 = 168           
+ DEFINE ri_tam_A9 = 169           
+ DEFINE rri_tam_AA = 170          
+ DEFINE li_tam_AB = 171           
+ DEFINE lli_tam_AC = 172          
+ DEFINE llli_tam_AD = 173         
+ DEFINE vi_tam_AE = 174           
+ DEFINE shi_tam_AF = 175          
+ DEFINE ssi_tam_B0 = 176          
+ DEFINE si_tam_B1 = 177           
+ DEFINE hi_tam_B2 = 178           
+ DEFINE kssi_tam_B3 = 179         
+ DEFINE kii_tam_B4 = 180          
+ DEFINE ngii_tam_B5 = 181         
+ DEFINE cii_tam_B6 = 182          
+ DEFINE jii_tam_B7 = 183          
+ DEFINE nyii_tam_B8 = 184         
+ DEFINE ttii_tam_B9 = 185         
+ DEFINE nnii_tam_BA = 186         
+ DEFINE tii_tam_BB = 187          
+ DEFINE nii_tam_BC = 188          
+ DEFINE nnnii_tam_BD = 189        
+ DEFINE pii_tam_BE = 190          
+ DEFINE mii_tam_BF = 191          
+ DEFINE yii_tam_C0 = 192          
+ DEFINE rii_tam_C1 = 193          
+ DEFINE rrii_tam_C2 = 194         
+ DEFINE lii_tam_C3 = 195          
+ DEFINE llii_tam_C4 = 196         
+ DEFINE lllii_tam_C5 = 197        
+ DEFINE vii_tam_C6 = 198          
+ DEFINE shii_tam_C7 = 199         
+ DEFINE ssii_tam_C8 = 200         
+ DEFINE sii_tam_C9 = 201          
+ DEFINE hii_tam_CA = 202          
+ DEFINE kssii_tam_CB = 203        
+ DEFINE ku_tam_CC = 204           
+ DEFINE ngu_tam_CD = 205          
+ DEFINE cu_tam_CE = 206           
+ DEFINE nyu_tam_CF = 207          
+ DEFINE ttu_tam_D0 = 208          
+ DEFINE nnu_tam_D1 = 209          
+ DEFINE tu_tam_D2 = 210           
+ DEFINE nu_tam_D3 = 211           
+ DEFINE nnnu_tam_D4 = 212         
+ DEFINE pu_tam_D5 = 213           
+ DEFINE mu_tam_D6 = 214           
+ DEFINE yu_tam_D7 = 215           
+ DEFINE ru_tam_D8 = 216           
+ DEFINE rru_tam_D9 = 217          
+ DEFINE lu_tam_DA = 218           
+ DEFINE llu_tam_DB = 219          
+ DEFINE lllu_tam_DC = 220         
+ DEFINE vu_tam_DD = 221           
+ DEFINE ju_tam_DE = 222           
+ DEFINE shu_tam_DF = 223          
+ DEFINE su_tam_E0 = 224           
+ DEFINE ssu_tam_E1 = 225          
+ DEFINE hu_tam_E2 = 226           
+ DEFINE kssu_tam_E3 = 227         
+ DEFINE kuu_tam_E4 = 228          
+ DEFINE nguu_tam_E5 = 229         
+ DEFINE cuu_tam_E6 = 230          
+ DEFINE nyuu_tam_E7 = 231         
+ DEFINE ttuu_tam_E8 = 232         
+ DEFINE nnuu_tam_E9 = 233         
+ DEFINE tuu_tam_EA = 234          
+ DEFINE nuu_tam_EB = 235          
+ DEFINE nnnuu_tam_EC = 236        
+ DEFINE puu_tam_ED = 237          
+ DEFINE muu_tam_EE = 238          
+ DEFINE yuu_tam_EF = 239          
+ DEFINE ruu_tam_F0 = 240          
+ DEFINE rruu_tam_F1 = 241         
+ DEFINE luu_tam_F2 = 242          
+ DEFINE lluu_tam_F3 = 243         
+ DEFINE llluu_tam_F4 = 244        
+ DEFINE vuu_tam_F5 = 245          
+ DEFINE juu_tam_F6 = 246          
+ DEFINE shuu_tam_F7 = 247         
+ DEFINE suu_tam_F8 = 248          
+ DEFINE ssuu_tam_F9 = 249         
+ DEFINE huu_tam_FA = 250          
+ DEFINE kssuu_tam_FB = 251        
+ DEFINE nnai_tam_FC = 252         
+ DEFINE nnnai_tam_FD = 253        
+ DEFINE lai_tam_FE = 254          
+ DEFINE llai_tam_FF = 255         
+ DEFINE aamatra_tam_100 = 256     
+ DEFINE imatra_tam_101 = 257      
+ DEFINE imatra_alt__102 = 258     
+ DEFINE imatra_alt1_103 = 259     
+ DEFINE imatra_alt2_104 = 260     
+ DEFINE iimatra_tam_105 = 261     
+ DEFINE iimatra_alt_106 = 262     
+ DEFINE umatra_tam_107 = 263      
+ DEFINE uumatra_tam_108 = 264     
+ DEFINE ematra_tam_109 = 265      
+ DEFINE eematra_tam_10A = 266     
+ DEFINE aimatra_tam_10B = 267     
+ DEFINE aimatrahalf_10C = 268     
+ DEFINE aumatra_tam_10D = 269     
+ DEFINE aumatrahalf_10E = 270     
+ DEFINE omatra_tam_10F = 271      
+ DEFINE oomatra_tam_110 = 272     
+
+
+GDEFHeader theGDEFHeader
+0x00010000
+theGlyphClassDef
+NULL
+theLigCaretList
+NULL
+
+
+ClassDefFormat2 theGlyphClassDef
+2
+ 1
+
+glyph0_0
+oomatra_tam_110
+ 1
+
+LigCaretList theLigCaretList
+theLigCaretList_Cvg
+ 0
+
+
+
+CoverageFormat1 theLigCaretList_Cvg
+1
+0
+
+
+
+    </source>
+  </TSID>
+
+</ttFont>

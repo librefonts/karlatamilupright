@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=1 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=1 -->
+      <Lookup index="0">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="aimatra.tam">
+            <Ligature components="nna.tam" glyph="nnai.tam"/>
+            <Ligature components="nnna.tam" glyph="nnnai.tam"/>
+            <Ligature components="la.tam" glyph="lai.tam"/>
+            <Ligature components="lla.tam" glyph="llai.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ca.tam">
+            <Ligature components="virama.tam" glyph="cvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ci.tam"/>
+            <Ligature components="iimatra.tam" glyph="cii.tam"/>
+            <Ligature components="umatra.tam" glyph="cu.tam"/>
+            <Ligature components="uumatra.tam" glyph="cuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ha.tam">
+            <Ligature components="virama.tam" glyph="hvir.tam"/>
+            <Ligature components="imatra.tam" glyph="hi.tam"/>
+            <Ligature components="iimatra.tam" glyph="hii.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ja.tam">
+            <Ligature components="virama.tam" glyph="jvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ji.tam"/>
+            <Ligature components="iimatra.tam" glyph="jii.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ka.tam">
+            <Ligature components="virama.tam" glyph="kvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ki.tam"/>
+            <Ligature components="iimatra.tam" glyph="kii.tam"/>
+            <Ligature components="umatra.tam" glyph="ku.tam"/>
+            <Ligature components="uumatra.tam" glyph="kuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="kssa.tam">
+            <Ligature components="virama.tam" glyph="kssvir.tam"/>
+            <Ligature components="imatra.tam" glyph="kssi.tam"/>
+            <Ligature components="iimatra.tam" glyph="kssii.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="la.tam">
+            <Ligature components="virama.tam" glyph="lvir.tam"/>
+            <Ligature components="imatra.tam" glyph="li.tam"/>
+            <Ligature components="iimatra.tam" glyph="lii.tam"/>
+            <Ligature components="umatra.tam" glyph="lu.tam"/>
+            <Ligature components="uumatra.tam" glyph="luu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="lla.tam">
+            <Ligature components="virama.tam" glyph="llvir.tam"/>
+            <Ligature components="imatra.tam" glyph="lli.tam"/>
+            <Ligature components="iimatra.tam" glyph="llii.tam"/>
+            <Ligature components="umatra.tam" glyph="llu.tam"/>
+            <Ligature components="uumatra.tam" glyph="lluu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="llla.tam">
+            <Ligature components="virama.tam" glyph="lllvir.tam"/>
+            <Ligature components="imatra.tam" glyph="llli.tam"/>
+            <Ligature components="iimatra.tam" glyph="lllii.tam"/>
+            <Ligature components="umatra.tam" glyph="lllu.tam"/>
+            <Ligature components="uumatra.tam" glyph="llluu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ma.tam">
+            <Ligature components="virama.tam" glyph="mvir.tam"/>
+            <Ligature components="imatra.tam" glyph="mi.tam"/>
+            <Ligature components="iimatra.tam" glyph="mii.tam"/>
+            <Ligature components="umatra.tam" glyph="mu.tam"/>
+            <Ligature components="uumatra.tam" glyph="muu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="na.tam">
+            <Ligature components="virama.tam" glyph="nvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ni.tam"/>
+            <Ligature components="iimatra.tam" glyph="nii.tam"/>
+            <Ligature components="umatra.tam" glyph="nu.tam"/>
+            <Ligature components="uumatra.tam" glyph="nuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="nga.tam">
+            <Ligature components="virama.tam" glyph="ngvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ngi.tam"/>
+            <Ligature components="iimatra.tam" glyph="ngii.tam"/>
+            <Ligature components="umatra.tam" glyph="ngu.tam"/>
+            <Ligature components="uumatra.tam" glyph="nguu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="nna.tam">
+            <Ligature components="virama.tam" glyph="nnvir.tam"/>
+            <Ligature components="aamatra.tam" glyph="nnaa.tam"/>
+            <Ligature components="imatra.tam" glyph="nni.tam"/>
+            <Ligature components="iimatra.tam" glyph="nnii.tam"/>
+            <Ligature components="umatra.tam" glyph="nnu.tam"/>
+            <Ligature components="uumatra.tam" glyph="nnuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="nnna.tam">
+            <Ligature components="virama.tam" glyph="nnnvir.tam"/>
+            <Ligature components="aamatra.tam" glyph="nnnaa.tam"/>
+            <Ligature components="imatra.tam" glyph="nnni.tam"/>
+            <Ligature components="iimatra.tam" glyph="nnnii.tam"/>
+            <Ligature components="umatra.tam" glyph="nnnu.tam"/>
+            <Ligature components="uumatra.tam" glyph="nnnuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="nya.tam">
+            <Ligature components="virama.tam" glyph="nyvir.tam"/>
+            <Ligature components="imatra.tam" glyph="nyi.tam"/>
+            <Ligature components="iimatra.tam" glyph="nyii.tam"/>
+            <Ligature components="umatra.tam" glyph="nyu.tam"/>
+            <Ligature components="uumatra.tam" glyph="nyuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="pa.tam">
+            <Ligature components="virama.tam" glyph="pvir.tam"/>
+            <Ligature components="imatra.tam" glyph="pi.tam"/>
+            <Ligature components="iimatra.tam" glyph="pii.tam"/>
+            <Ligature components="umatra.tam" glyph="pu.tam"/>
+            <Ligature components="uumatra.tam" glyph="puu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ra.tam">
+            <Ligature components="virama.tam" glyph="rvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ri.tam"/>
+            <Ligature components="iimatra.tam" glyph="rii.tam"/>
+            <Ligature components="umatra.tam" glyph="ru.tam"/>
+            <Ligature components="uumatra.tam" glyph="ruu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="rra.tam">
+            <Ligature components="virama.tam" glyph="rrvir.tam"/>
+            <Ligature components="aamatra.tam" glyph="rraa.tam"/>
+            <Ligature components="imatra.tam" glyph="rri.tam"/>
+            <Ligature components="iimatra.tam" glyph="rrii.tam"/>
+            <Ligature components="umatra.tam" glyph="rru.tam"/>
+            <Ligature components="uumatra.tam" glyph="rruu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="sa.tam">
+            <Ligature components="virama.tam" glyph="svir.tam"/>
+            <Ligature components="imatra.tam" glyph="si.tam"/>
+            <Ligature components="iimatra.tam" glyph="sii.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="sha.tam">
+            <Ligature components="virama.tam" glyph="shvir.tam"/>
+            <Ligature components="imatra.tam" glyph="shi.tam"/>
+            <Ligature components="iimatra.tam" glyph="shii.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ssa.tam">
+            <Ligature components="virama.tam" glyph="ssvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ssi.tam"/>
+            <Ligature components="iimatra.tam" glyph="ssii.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ta.tam">
+            <Ligature components="virama.tam" glyph="tvir.tam"/>
+            <Ligature components="imatra.tam" glyph="ti.tam"/>
+            <Ligature components="iimatra.tam" glyph="tii.tam"/>
+            <Ligature components="umatra.tam" glyph="tu.tam"/>
+            <Ligature components="uumatra.tam" glyph="tuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="tta.tam">
+            <Ligature components="virama.tam" glyph="ttvir.tam"/>
+            <Ligature components="imatra.tam" glyph="tti.tam"/>
+            <Ligature components="iimatra.tam" glyph="ttii.tam"/>
+            <Ligature components="umatra.tam" glyph="ttu.tam"/>
+            <Ligature components="uumatra.tam" glyph="ttuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="va.tam">
+            <Ligature components="virama.tam" glyph="vvir.tam"/>
+            <Ligature components="imatra.tam" glyph="vi.tam"/>
+            <Ligature components="iimatra.tam" glyph="vii.tam"/>
+            <Ligature components="umatra.tam" glyph="vu.tam"/>
+            <Ligature components="uumatra.tam" glyph="vuu.tam"/>
+          </LigatureSet>
+          <LigatureSet glyph="ya.tam">
+            <Ligature components="virama.tam" glyph="yvir.tam"/>
+            <Ligature components="imatra.tam" glyph="yi.tam"/>
+            <Ligature components="iimatra.tam" glyph="yii.tam"/>
+            <Ligature components="umatra.tam" glyph="yu.tam"/>
+            <Ligature components="uumatra.tam" glyph="yuu.tam"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
