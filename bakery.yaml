@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [KarlaTamilUpright-Regular.ttf.ttx, KarlaTamilUpright-Bold.ttf.ttx,
+  orig/KarlaTamilUpright-Regular.ttf.ttx, orig/KarlaTamilUpright-Bold.ttf.ttx, src/KarlaUpright-Bold-InVOLT.ttf.ttx,
+  src/KarlaUpright-Regular-PreVOLT.ttf.ttx, src/KarlaUpright-Regular-InVOLT.ttf.ttx,
+  src/KarlaUpright-Bold-PreVOLT.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

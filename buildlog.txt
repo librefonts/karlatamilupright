@@ -1,0 +1,470 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/karlatamilupright/METADATA.json /home/travis/build/fontdirectory/karlatamilupright/builds/build
+$ cp -a /home/travis/build/fontdirectory/karlatamilupright/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/karlatamilupright/builds/build
+$ cp -a KarlaTamilUpright-Regular.ttf.ttx KarlaTamilUpright-Bold.ttf.ttx orig/KarlaTamilUpright-Regular.ttf.ttx orig/KarlaTamilUpright-Bold.ttf.ttx src/KarlaUpright-Bold-InVOLT.ttf.ttx src/KarlaUpright-Regular-PreVOLT.ttf.ttx src/KarlaUpright-Regular-InVOLT.ttf.ttx src/KarlaUpright-Bold-PreVOLT.ttf.ttx KarlaTamilUpright-Regular.ttf._c_m_a_p.ttx KarlaTamilUpright-Regular.ttf._k_e_r_n.ttx KarlaTamilUpright-Regular.ttf._c_v_t.ttx KarlaTamilUpright-Regular.ttf.G_D_E_F_.ttx KarlaTamilUpright-Regular.ttf.G_P_O_S_.ttx KarlaTamilUpright-Regular.ttf._g_l_y_f.ttx KarlaTamilUpright-Regular.ttf._h_e_a_d.ttx KarlaTamilUpright-Regular.ttf.GlyphOrder.ttx KarlaTamilUpright-Regular.ttf.V_D_M_X_.ttx KarlaTamilUpright-Regular.ttf.L_T_S_H_.ttx KarlaTamilUpright-Regular.ttf._m_a_x_p.ttx KarlaTamilUpright-Regular.ttf.O_S_2f_2.ttx KarlaTamilUpright-Regular.ttf._h_d_m_x.ttx KarlaTamilUpright-Regular.ttf._h_h_e_a.ttx KarlaTamilUpright-Regular.ttf._h_m_t_x.ttx KarlaTamilUpright-Regular.ttf._l_o_c_a.ttx KarlaTamilUpright-Regular.ttf._f_p_g_m.ttx KarlaTamilUpright-Regular.ttf._p_o_s_t.ttx KarlaTamilUpright-Regular.ttf.G_S_U_B_.ttx KarlaTamilUpright-Regular.ttf._p_r_e_p.ttx KarlaTamilUpright-Regular.ttf._n_a_m_e.ttx KarlaTamilUpright-Bold.ttf.GlyphOrder.ttx KarlaTamilUpright-Bold.ttf._h_h_e_a.ttx KarlaTamilUpright-Bold.ttf.V_D_M_X_.ttx KarlaTamilUpright-Bold.ttf._h_m_t_x.ttx KarlaTamilUpright-Bold.ttf._m_a_x_p.ttx KarlaTamilUpright-Bold.ttf._c_v_t.ttx KarlaTamilUpright-Bold.ttf._f_p_g_m.ttx KarlaTamilUpright-Bold.ttf.O_S_2f_2.ttx KarlaTamilUpright-Bold.ttf._k_e_r_n.ttx KarlaTamilUpright-Bold.ttf._p_o_s_t.ttx KarlaTamilUpright-Bold.ttf.G_D_E_F_.ttx KarlaTamilUpright-Bold.ttf.L_T_S_H_.ttx KarlaTamilUpright-Bold.ttf._h_e_a_d.ttx KarlaTamilUpright-Bold.ttf._g_l_y_f.ttx KarlaTamilUpright-Bold.ttf.G_S_U_B_.ttx KarlaTamilUpright-Bold.ttf._p_r_e_p.ttx KarlaTamilUpright-Bold.ttf.G_P_O_S_.ttx KarlaTamilUpright-Bold.ttf._c_m_a_p.ttx KarlaTamilUpright-Bold.ttf._h_d_m_x.ttx KarlaTamilUpright-Bold.ttf._l_o_c_a.ttx KarlaTamilUpright-Bold.ttf._n_a_m_e.ttx orig/KarlaTamilUpright-Regular.ttf._c_m_a_p.ttx orig/KarlaTamilUpright-Regular.ttf._k_e_r_n.ttx orig/KarlaTamilUpright-Regular.ttf._c_v_t.ttx orig/KarlaTamilUpright-Regular.ttf.G_D_E_F_.ttx orig/KarlaTamilUpright-Regular.ttf.G_P_O_S_.ttx orig/KarlaTamilUpright-Regular.ttf._g_l_y_f.ttx orig/KarlaTamilUpright-Regular.ttf._h_e_a_d.ttx orig/KarlaTamilUpright-Regular.ttf.GlyphOrder.ttx orig/KarlaTamilUpright-Regular.ttf.V_D_M_X_.ttx orig/KarlaTamilUpright-Regular.ttf.L_T_S_H_.ttx orig/KarlaTamilUpright-Regular.ttf._m_a_x_p.ttx orig/KarlaTamilUpright-Regular.ttf.O_S_2f_2.ttx orig/KarlaTamilUpright-Regular.ttf._h_d_m_x.ttx orig/KarlaTamilUpright-Regular.ttf._h_h_e_a.ttx orig/KarlaTamilUpright-Regular.ttf._h_m_t_x.ttx orig/KarlaTamilUpright-Regular.ttf._l_o_c_a.ttx orig/KarlaTamilUpright-Regular.ttf._f_p_g_m.ttx orig/KarlaTamilUpright-Regular.ttf._p_o_s_t.ttx orig/KarlaTamilUpright-Regular.ttf.G_S_U_B_.ttx orig/KarlaTamilUpright-Regular.ttf._p_r_e_p.ttx orig/KarlaTamilUpright-Regular.ttf._n_a_m_e.ttx orig/KarlaTamilUpright-Bold.ttf.GlyphOrder.ttx orig/KarlaTamilUpright-Bold.ttf._h_h_e_a.ttx orig/KarlaTamilUpright-Bold.ttf.V_D_M_X_.ttx orig/KarlaTamilUpright-Bold.ttf._h_m_t_x.ttx orig/KarlaTamilUpright-Bold.ttf._m_a_x_p.ttx orig/KarlaTamilUpright-Bold.ttf._c_v_t.ttx orig/KarlaTamilUpright-Bold.ttf._f_p_g_m.ttx orig/KarlaTamilUpright-Bold.ttf.O_S_2f_2.ttx orig/KarlaTamilUpright-Bold.ttf._k_e_r_n.ttx orig/KarlaTamilUpright-Bold.ttf._p_o_s_t.ttx orig/KarlaTamilUpright-Bold.ttf.G_D_E_F_.ttx orig/KarlaTamilUpright-Bold.ttf.L_T_S_H_.ttx orig/KarlaTamilUpright-Bold.ttf._h_e_a_d.ttx orig/KarlaTamilUpright-Bold.ttf._g_l_y_f.ttx orig/KarlaTamilUpright-Bold.ttf.G_S_U_B_.ttx orig/KarlaTamilUpright-Bold.ttf._p_r_e_p.ttx orig/KarlaTamilUpright-Bold.ttf.G_P_O_S_.ttx orig/KarlaTamilUpright-Bold.ttf._c_m_a_p.ttx orig/KarlaTamilUpright-Bold.ttf._h_d_m_x.ttx orig/KarlaTamilUpright-Bold.ttf._l_o_c_a.ttx orig/KarlaTamilUpright-Bold.ttf._n_a_m_e.ttx src/KarlaUpright-Bold-InVOLT.ttf._h_e_a_d.ttx src/KarlaUpright-Bold-InVOLT.ttf._h_m_t_x.ttx src/KarlaUpright-Bold-InVOLT.ttf.O_S_2f_2.ttx src/KarlaUpright-Bold-InVOLT.ttf._p_r_e_p.ttx src/KarlaUpright-Bold-InVOLT.ttf.V_D_M_X_.ttx src/KarlaUpright-Bold-InVOLT.ttf._h_d_m_x.ttx src/KarlaUpright-Bold-InVOLT.ttf.G_S_U_B_.ttx src/KarlaUpright-Bold-InVOLT.ttf._f_p_g_m.ttx src/KarlaUpright-Bold-InVOLT.ttf._h_h_e_a.ttx src/KarlaUpright-Bold-InVOLT.ttf._m_a_x_p.ttx src/KarlaUpright-Bold-InVOLT.ttf.G_P_O_S_.ttx src/KarlaUpright-Bold-InVOLT.ttf._n_a_m_e.ttx src/KarlaUpright-Bold-InVOLT.ttf._l_o_c_a.ttx src/KarlaUpright-Bold-InVOLT.ttf._k_e_r_n.ttx src/KarlaUpright-Bold-InVOLT.ttf.L_T_S_H_.ttx src/KarlaUpright-Bold-InVOLT.ttf._p_o_s_t.ttx src/KarlaUpright-Bold-InVOLT.ttf._c_m_a_p.ttx src/KarlaUpright-Bold-InVOLT.ttf.T_S_I_V_.ttx src/KarlaUpright-Bold-InVOLT.ttf._c_v_t.ttx src/KarlaUpright-Bold-InVOLT.ttf.GlyphOrder.ttx src/KarlaUpright-Bold-InVOLT.ttf._g_l_y_f.ttx src/KarlaUpright-Regular-PreVOLT.ttf._p_r_e_p.ttx src/KarlaUpright-Regular-PreVOLT.ttf.GlyphOrder.ttx src/KarlaUpright-Regular-PreVOLT.ttf._f_p_g_m.ttx src/KarlaUpright-Regular-PreVOLT.ttf._h_d_m_x.ttx src/KarlaUpright-Regular-PreVOLT.ttf._l_o_c_a.ttx src/KarlaUpright-Regular-PreVOLT.ttf.G_P_O_S_.ttx src/KarlaUpright-Regular-PreVOLT.ttf.G_S_U_B_.ttx src/KarlaUpright-Regular-PreVOLT.ttf._n_a_m_e.ttx src/KarlaUpright-Regular-PreVOLT.ttf._h_h_e_a.ttx src/KarlaUpright-Regular-PreVOLT.ttf._c_m_a_p.ttx src/KarlaUpright-Regular-PreVOLT.ttf._m_a_x_p.ttx src/KarlaUpright-Regular-PreVOLT.ttf.V_D_M_X_.ttx src/KarlaUpright-Regular-PreVOLT.ttf._p_o_s_t.ttx src/KarlaUpright-Regular-PreVOLT.ttf._g_l_y_f.ttx src/KarlaUpright-Regular-PreVOLT.ttf._h_m_t_x.ttx src/KarlaUpright-Regular-PreVOLT.ttf._h_e_a_d.ttx src/KarlaUpright-Regular-PreVOLT.ttf.O_S_2f_2.ttx src/KarlaUpright-Regular-PreVOLT.ttf._c_v_t.ttx src/KarlaUpright-Regular-PreVOLT.ttf.L_T_S_H_.ttx src/KarlaUpright-Regular-PreVOLT.ttf._k_e_r_n.ttx src/KarlaUpright-Regular-InVOLT.ttf.T_S_I_V_.ttx src/KarlaUpright-Regular-InVOLT.ttf._k_e_r_n.ttx src/KarlaUpright-Regular-InVOLT.ttf.O_S_2f_2.ttx src/KarlaUpright-Regular-InVOLT.ttf.T_S_I_S_.ttx src/KarlaUpright-Regular-InVOLT.ttf.G_P_O_S_.ttx src/KarlaUpright-Regular-InVOLT.ttf._n_a_m_e.ttx src/KarlaUpright-Regular-InVOLT.ttf.G_S_U_B_.ttx src/KarlaUpright-Regular-InVOLT.ttf._c_v_t.ttx src/KarlaUpright-Regular-InVOLT.ttf.L_T_S_H_.ttx src/KarlaUpright-Regular-InVOLT.ttf._h_h_e_a.ttx src/KarlaUpright-Regular-InVOLT.ttf.V_D_M_X_.ttx src/KarlaUpright-Regular-InVOLT.ttf._f_p_g_m.ttx src/KarlaUpright-Regular-InVOLT.ttf._h_m_t_x.ttx src/KarlaUpright-Regular-InVOLT.ttf._g_l_y_f.ttx src/KarlaUpright-Regular-InVOLT.ttf._l_o_c_a.ttx src/KarlaUpright-Regular-InVOLT.ttf._h_d_m_x.ttx src/KarlaUpright-Regular-InVOLT.ttf._p_r_e_p.ttx src/KarlaUpright-Regular-InVOLT.ttf._m_a_x_p.ttx src/KarlaUpright-Regular-InVOLT.ttf._h_e_a_d.ttx src/KarlaUpright-Regular-InVOLT.ttf._c_m_a_p.ttx src/KarlaUpright-Regular-InVOLT.ttf.GlyphOrder.ttx src/KarlaUpright-Regular-InVOLT.ttf.T_S_I_P_.ttx src/KarlaUpright-Regular-InVOLT.ttf.G_D_E_F_.ttx src/KarlaUpright-Regular-InVOLT.ttf.T_S_I_D_.ttx src/KarlaUpright-Regular-InVOLT.ttf._p_o_s_t.ttx src/KarlaUpright-Bold-PreVOLT.ttf._c_v_t.ttx src/KarlaUpright-Bold-PreVOLT.ttf._h_d_m_x.ttx src/KarlaUpright-Bold-PreVOLT.ttf._h_m_t_x.ttx src/KarlaUpright-Bold-PreVOLT.ttf.G_S_U_B_.ttx src/KarlaUpright-Bold-PreVOLT.ttf._l_o_c_a.ttx src/KarlaUpright-Bold-PreVOLT.ttf._g_l_y_f.ttx src/KarlaUpright-Bold-PreVOLT.ttf._c_m_a_p.ttx src/KarlaUpright-Bold-PreVOLT.ttf._p_r_e_p.ttx src/KarlaUpright-Bold-PreVOLT.ttf.G_P_O_S_.ttx src/KarlaUpright-Bold-PreVOLT.ttf._k_e_r_n.ttx src/KarlaUpright-Bold-PreVOLT.ttf._h_h_e_a.ttx src/KarlaUpright-Bold-PreVOLT.ttf._f_p_g_m.ttx src/KarlaUpright-Bold-PreVOLT.ttf._m_a_x_p.ttx src/KarlaUpright-Bold-PreVOLT.ttf.GlyphOrder.ttx src/KarlaUpright-Bold-PreVOLT.ttf._n_a_m_e.ttx src/KarlaUpright-Bold-PreVOLT.ttf._p_o_s_t.ttx src/KarlaUpright-Bold-PreVOLT.ttf.O_S_2f_2.ttx src/KarlaUpright-Bold-PreVOLT.ttf._h_e_a_d.ttx src/KarlaUpright-Bold-PreVOLT.ttf.V_D_M_X_.ttx src/KarlaUpright-Bold-PreVOLT.ttf.L_T_S_H_.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Bold-InVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Regular-PreVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Regular-InVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamilUpright-Regular.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamilUpright-Bold.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Bold-PreVOLT.ttf.ttx > fontaine.txt
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx KarlaUpright-Bold-InVOLT.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Bold-InVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ fontbakery-check.py upstream-ttx KarlaUpright-Regular-PreVOLT.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Regular-PreVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ fontbakery-check.py upstream-ttx KarlaUpright-Regular-InVOLT.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Regular-InVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ fontbakery-check.py upstream-ttx KarlaTamilUpright-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamilUpright-Regular.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ fontbakery-check.py upstream-ttx KarlaTamilUpright-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamilUpright-Bold.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ fontbakery-check.py upstream-ttx KarlaUpright-Bold-PreVOLT.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaUpright-Bold-PreVOLT.ttf.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/karlatamilupright/builds/build /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Bold.ttx /home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Regular.ttx
+Compiling "/home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Bold.ttx" to "/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/karlatamilupright/builds/build/sources/KarlaTamil-Regular.ttx" to "/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test KarlaTamil-Bold.ttf
+$ fontbakery-check.py result KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+Parameter              KarlaTamil-Bold.ttf    KarlaTamil-Regular.ttf    
+ymax                   845                    813                       
+hhea.ascent            845                    845                       
+OS/2.sTypoAscender     845                    845                       
+OS/2.usWinAscent       845                    845                       
+ymin                   -358                   -349                      
+hhea.descent           -358                   -358                      
+OS/2.sTypoDescender    -358                   -358                      
+OS/2.usWinDescent      358                    358                       
+hhea.lineGap           0                      0                         
+OS/2.sTypoLineGap      0                      0                         
+hhea total             1203                   1203                      
+typo total             1203                   1203                      
+win total              1203                   1203                      
+UPM:Heights            1000:1203              1000:1162                 
+UPM:Heights %          120 %                  116 %                     
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+### Optimize TTF KarlaTamil-Bold.ttf
+$ ls -l 'KarlaTamil-Bold.ttf'* # look at the size savings of that subset process
+KarlaTamil-Bold.ttf.opt: 183232 bytes
+KarlaTamil-Bold.ttf: 186988 bytes
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf.opt /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+### Autohint TTFs (ttfautohint) KarlaTamil-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf '/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf: 183232 bytes
+/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.autohint.ttf: 89892 bytes
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.autohint.ttf /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+### Subset TTFs (pyftsubset) KarlaTamil-Bold.ttf
+$ pyftsubset KarlaTamil-Bold.latin
+$ pyftsubset KarlaTamil-Bold.menu
+spaceWidth is    247
+nbspWidth is     247
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Bold.ttf
+### Test KarlaTamil-Regular.ttf
+$ fontbakery-check.py result KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.fix /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+### Optimize TTF KarlaTamil-Regular.ttf
+$ ls -l 'KarlaTamil-Regular.ttf'* # look at the size savings of that subset process
+KarlaTamil-Regular.ttf.opt: 185200 bytes
+KarlaTamil-Regular.ttf: 188956 bytes
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf.opt /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+### Autohint TTFs (ttfautohint) KarlaTamil-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf '/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf: 185200 bytes
+/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.autohint.ttf: 73308 bytes
+$ mv /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.autohint.ttf /home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+### Subset TTFs (pyftsubset) KarlaTamil-Regular.ttf
+$ pyftsubset KarlaTamil-Regular.latin
+$ pyftsubset KarlaTamil-Regular.menu
+spaceWidth is    234
+nbspWidth is     234
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/karlatamilupright/builds/build/KarlaTamil-Regular.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/karlatamilupright/builds/build
+{} exists
+Designer's name from font is: Jonathan Pinhorn
+Original size: 73308\nGzip size: 27758
+Family Name: Karla Tamil
+PS Name: KarlaTamil-Bold
+Full Name: Karla Tamil Bold
+Style: normal
+Weight: 700
+Filename: KarlaTamil-Bold.ttf
+Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+Family Name: Karla Tamil
+PS Name: KarlaTamil
+Full Name: Karla Tamil
+Style: normal
+Weight: 400
+Filename: KarlaTamil-Regular.ttf
+Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_tamil(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): FAIL
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): ERROR
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): ERROR
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): ERROR
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): ERROR
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+{
+  "name": "Karla Tamil Upright", 
+  "designer": "Jonathan Pinhorn", 
+  "license": "OFL", 
+  "visibility": "Internal", 
+  "category": "Sans Serif", 
+  "size": 65227, 
+  "fonts": [
+    {
+      "name": "Karla Tamil", 
+      "postScriptName": "KarlaTamil-Bold", 
+      "fullName": "Karla Tamil Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "KarlaTamil-Bold.ttf", 
+      "copyright": "Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved."
+    }, 
+    {
+      "name": "Karla Tamil", 
+      "postScriptName": "KarlaTamil", 
+      "fullName": "Karla Tamil", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "KarlaTamil-Regular.ttf", 
+      "copyright": "Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved."
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2012-09-29"
+}

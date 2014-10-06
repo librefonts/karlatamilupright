@@ -1,0 +1,218 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Karla Tamil
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.000
+    Vendor: Jonathan Pinhorn
+    Designer: Jonathan Pinhorn
+    Designer url: jonpinhorn.com
+    Glyph count: 273
+    Character count: 114
+    Orthographies:
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 22
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 30
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Karla Tamil
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.000
+    Vendor: Jonathan Pinhorn
+    Designer: Jonathan Pinhorn
+    Designer url: jonpinhorn.com
+    Glyph count: 273
+    Character count: 114
+    Orthographies:
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 22
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 30
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Karla Tamil
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.000
+    Vendor: Jonathan Pinhorn
+    Designer: Jonathan Pinhorn
+    Designer url: jonpinhorn.com
+    Glyph count: 273
+    Character count: 114
+    Orthographies:
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 22
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 30
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Karla Tamil
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.000
+    Vendor: Jonathan Pinhorn
+    Designer: Jonathan Pinhorn
+    Designer url: jonpinhorn.com
+    Glyph count: 273
+    Character count: 114
+    Orthographies:
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 22
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 30
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Karla Tamil
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.000
+    Vendor: Jonathan Pinhorn
+    Designer: Jonathan Pinhorn
+    Designer url: jonpinhorn.com
+    Glyph count: 273
+    Character count: 114
+    Orthographies:
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 22
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 30
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Karla Tamil
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.000
+    Vendor: Jonathan Pinhorn
+    Designer: Jonathan Pinhorn
+    Designer url: jonpinhorn.com
+    Glyph count: 273
+    Character count: 114
+    Orthographies:
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 22
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 30
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
